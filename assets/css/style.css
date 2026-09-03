@@ -249,6 +249,7 @@ footer{background:var(--blue-950);color:#c7d2f5;padding:64px 0 28px;}
 /* ---------- 404 Page ---------- */
 .h-spacing{padding-top:85px;}
 main {flex-shrink: 0;flex-grow: 1;}
+a:focus-visible{outline: none;}
 
 .page-404 .wrap{min-height:60vh;display:flex;align-items:center;justify-content:center;padding:24px 20px;}
 .page-404 .card{width:100%;text-align:center;border:none;animation:fade-up 0.6s ease-out both;}
@@ -279,6 +280,28 @@ main {flex-shrink: 0;flex-grow: 1;}
 	.page-404 .underline{animation:none;transform:scaleX(0.7);opacity:0.8;}
 }
 
+/* ---------- Default page ---------- */
+.default-page-sec{background: #FFFFFF;padding:160px 0px 80px;}
+.default-page-sec h1{font-size:48px;}
+.default-page-sec h2{font-size:40px;}
+.default-page-sec h3{font-size:32px;}
+.default-page-sec h4{font-size:28px;}
+.default-page-sec h5{font-size:24px;}
+.default-page-sec h6{font-size:22px;}
+.default-page-sec h1,.default-page-sec h2,.default-page-sec h3,.default-page-sec h4,.default-page-sec h5,.default-page-sec h6{line-height:1.2;font-weight:700;margin-bottom:15px;margin-top:20px;}
+.default-page-sec p{font-size:18px;line-height:1.6;font-weight:400;margin-bottom:15px;}
+.default-page-sec a{color:#1c4fd1}
+.default-page-sec ol{list-style-type:decimal;margin:15px 0px 20px;padding-left:0px;}
+.default-page-sec ul{list-style:disc;margin:15px 0px 20px;padding-left:0px;}
+.default-page-sec li{margin-bottom:10px;margin-left:30px;padding-left:.5em;font-size:18px;color:#000000;line-height:24px;font-weight:400;}
+.default-page-sec ol ol{list-style:upper-roman;padding-left:10px;}
+.default-page-sec ol ol ol{list-style:lower-alpha;}
+.default-page-sec ul ul{list-style:circle;padding-left:10px;}
+.default-page-sec ul ul li{margin-left:25px;}
+.default-page-sec ul ol li::marker{font-size:unset;}
+.default-page-sec blockquote{max-width:100%;text-align:left;margin:25px 0px;padding:25px 20px;font-size:16px;font-weight:400;line-height:1.4;color:#1c4fd1;background:#fff;border-left:4px solid #1c4fd1;}
+.default-page-sec b,.default-page-sec strong{font-weight:700}
+.default-page-sec img{max-width:100%;height:auto;position:relative;}
 
 
 /* ---------- RESPONSIVE ---------- */
