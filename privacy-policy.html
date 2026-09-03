@@ -2,340 +2,300 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <meta name="description"
-    content="Carmunicate lets drivers chat, park smarter, and manage every vehicle need from one app.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="Carmunicate lets drivers chat, park smarter, and manage every vehicle need from one app.">
 
-  <title>Carmunicate — Say More Than a Honk</title>
+    <title>Carmunicate — Say More Than a Honk</title>
 
-  <!-- ================ /GOOGLE FONT EOC =================== -->
-  <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-  <link href="assets/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <!-- ================ /GOOGLE FONT EOC =================== -->
+    <!-- ================ /GOOGLE FONT EOC =================== -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link href="assets/font/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- ================ /GOOGLE FONT EOC =================== -->
 
-  <!-- =================== /WEB CSS BOC ==================== -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/font/font-family/stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/slick.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/media.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/header.css">
-
-
-  <!-- =================== /WEB CSS EOC ==================== -->
+    <!-- =================== /WEB CSS BOC ==================== -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/font/font-family/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/media.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/header.css">
 
 
-  <style>
-      .default-page-sec{background: #FFFFFF;padding:160px 0px 80px;}
-      .default-page-sec h1{font-size:46px;}
-      .default-page-sec h2{font-size:38px;}
-      .default-page-sec h3{font-size:36px;}
-      .default-page-sec h4{font-size:28px;}
-      .default-page-sec h5{font-size:24px;}
-      .default-page-sec h6{font-size:20px;}
-      .default-page-sec h1,.default-page-sec h2,.default-page-sec h3,.default-page-sec h4,.default-page-sec h5,.default-page-sec h6{line-height:1.2;font-weight:700;margin-bottom:15px;margin-top:20px;}
-      .default-page-sec p{font-size:16px;line-height:1.6;font-weight:400;margin-bottom:15px;}
-      .default-page-sec a{color:#1c4fd1}
-      .default-page-sec ol{list-style-type:decimal;margin:15px 0px 25px;padding-left:0px;}
-      .default-page-sec ul{list-style:disc;margin:15px 0px 25px;padding-left:0px;}
-      .default-page-sec li{margin-bottom:10px;margin-left:30px;padding-left:.5em;font-size:18px;color:#000000;line-height:24px;font-weight:400;}
-      .default-page-sec ol ol{list-style:upper-roman;padding-left:10px;}
-      .default-page-sec ol ol ol{list-style:lower-alpha;}
-      .default-page-sec ul ul{list-style:circle;padding-left:10px;}
-      .default-page-sec ul ul li{margin-left:25px;}
-      .default-page-sec ul ol li::marker{font-size:unset;}
-      .default-page-sec blockquote{max-width:100%;text-align:left;margin:25px 0px;padding:25px 20px;font-size:16px;font-weight:400;line-height:1.4;color:#1c4fd1;background:#fff;border-left:4px solid #1c4fd1;}
-      .default-page-sec b,.default-page-sec strong{font-weight:700}
-      .default-page-sec img{max-width:100%;height:auto;position:relative;}
-      @media (max-width:1199px){
-        .default-page-sec h1{font-size:40px;}
-        .default-page-sec h2{font-size:32px;}
-        .default-page-sec h3{font-size:26px;}
-        .default-page-sec h4{font-size:24px;}
-        .default-page-sec h5{font-size:22px;}
-        .default-page-sec h6{font-size:18px;}
-        .default-page-sec p{font-size:16px;}
-        .default-page-sec li{font-size:15px;}
-        .default-page-sec ul li a{font-size:15px;}
-        .default-page-sec{padding:100px 0px 60px;}
-      }
-      @media (max-width:767px){
-        .default-page-sec h1{font-size:34px;}
-        .default-page-sec h2{font-size:28px;}
-        .default-page-sec h3{font-size:24px;}
-        .default-page-sec h4{font-size:22px;}
-        .default-page-sec h5{font-size:20px;}
-        .default-page-sec h6{font-size:16px;}
-        .default-page-sec p{font-size:14px;}
-        .default-page-sec li{font-size:14px;}
-        .default-page-sec ul li a{font-size:14px;}
-        .default-page-sec{padding:100px 0px 60px;}
-      }
-      @media (max-width:481px){
-        .default-page-sec h1{font-size:28px;}
-        .default-page-sec h2{font-size:24px;}
-        .default-page-sec h3{font-size:22px;}
-        .default-page-sec h4{font-size:20px;}
-        .default-page-sec h5{font-size:18px;}
-        .default-page-sec h6{font-size:14px;}
-      }
+    <!-- =================== /WEB CSS EOC ==================== -->
 
-      
-
-    </style>
 
 
 </head>
 
 <body>
 
-  <!-- ====== /WRAPPER BOC ====== -->
-  <div class="page-wrapper " id="home">
-    <!-- header start -->
-    <header class="site-header">
-          <div class="header-main nav-area">
-              <div class="container">
-                <div class="header-inner-main">
-                    <div class="navbar-container">
-                      <nav class="navbar navbar-dark navbar-expand-lg">
-                          <div class="header-logo">
-                            <a href="#">
-                              <img src="assets/images/logo-main.svg" alt="#" class="logo-img">
-                            </a>
-                          </div>
-                          <div class="header-inner d-flex">
-                            <div class="header-right">
-                              <div class=" d-flex d-lg-none justify-content-end align-items-center">
-                                
+    <!-- ====== /WRAPPER BOC ====== -->
+    <div class="page-wrapper " id="home">
+        <!-- header start -->
+        <header class="site-header">
+            <div class="header-main nav-area">
+                <div class="container">
+                    <div class="header-inner-main">
+                        <div class="navbar-container">
+                            <nav class="navbar navbar-dark navbar-expand-lg">
+                                <div class="header-logo">
+                                    <a href="#">
+                                        <img src="assets/images/logo-main.svg" alt="#" class="logo-img">
+                                    </a>
+                                </div>
+                                <div class="header-inner d-flex">
+                                    <div class="header-right">
+                                        <div class=" d-flex d-lg-none justify-content-end align-items-center">
 
-                                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+                                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                              </div>
+                                        </div>
 
-                              <div class="collapse header-menu navbar-collapse " id="navbarNavDropdown">
-                                <div class="header-menu-inner">
-                                  <ul class="navbar-nav" id="menu-main-menu">
-                                    <li class="nav-item"><a class="scrollTosection home-click" href="#home">Home</a></li>
-                                    <li class="nav-item"><a class="scrollTosection abouttheapp-click" href="#abouttheapp">About The App</a></li>
-                                    <li class="nav-item"><a class="scrollTosection contactus-click" href="#contactus">Contact Us</a></li>
-                                  </ul>
+                                        <div class="collapse header-menu navbar-collapse " id="navbarNavDropdown">
+                                            <div class="header-menu-inner">
+                                                <ul class="navbar-nav" id="menu-main-menu">
+                                                    <li class="nav-item"><a class="scrollTosection home-click" href="index.html#home">Home</a></li>
+                                                    <li class="nav-item"><a class="scrollTosection abouttheapp-click" href="index.html#abouttheapp">About The App</a></li>
+                                                    <li class="nav-item"><a class="scrollTosection contactus-click" href="index.html#contactus">Contact Us</a></li>
+                                                </ul>
 
-                                  <div class="header-btn-main justify-content-lg-end">                                  
-                                     <div class="store-badges">
-                                        <a href="#Google" class="store-badge">
-                                            <img src="assets/images/playstore.svg" class="google-play d-block">
-                                            <img src="assets/images/h-gplay-icon.svg" class="google-icon d-none">
-                                        </a>
+                                                <div class="header-btn-main justify-content-lg-end">
+                                                    <div class="store-badges">
+                                                        <a href="#Google" class="store-badge">
+                                                            <img src="assets/images/playstore.svg" class="google-play d-block">
+                                                            <img src="assets/images/h-gplay-icon.svg" class="google-icon d-none">
+                                                        </a>
 
-                                        <a href="#App" class="store-badge">
-                                            <img src="assets/images/appstore.svg" class="app-store d-block">
-                                            <img src="assets/images/h-app-store-icon.svg" class="app-icon d-none">
-                                        </a>
+                                                        <a href="#App" class="store-badge">
+                                                            <img src="assets/images/appstore.svg" class="app-store d-block">
+                                                            <img src="assets/images/h-app-store-icon.svg" class="app-icon d-none">
+                                                        </a>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
                                     </div>
-                                  </div>
-
-
                                 </div>
-                              </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- header End -->
+
+        <!-- Content Start -->
+
+        <section class="default-page-sec" style="">
+
+            <div class="container">
+
+                <div class="privacy-policy-sec">
+
+                    <div class="privacy-policy-contant">
+
+                        <h2 class="section-title">Privacy Policy</h2>
+
+                        <div class="privacy-policy">
+                            <p><strong>Last Updated:</strong> 1st January 2024</p>
+                            <p><strong>Effective Date:</strong> 1st January 2024</p>
+                            <p>Carmunicate Pty Ltd (ABN: 29 673 130 535)<br>Director: Dale Bonello</p>
+                            <p>Carmunicate respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you use the Carmunicate mobile application and related services (the “App”). It applies
+                                to all users worldwide, including in Australia, USA, Canada, New Zealand, United Kingdom, China, Russia, and Japan.</p>
+                            <p>By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please do not use the App.</p>
+                            <p><strong>1. What Information We Collect</strong></p>
+                            <p>We collect information that identifies you or relates to you as an identifiable individual (“Personal Information”).</p>
+                            <p><strong>1.1 Information You Provide Directly</strong></p>
+                            <p>Account Information: Name, email address, mobile number, password, and vehicle number plate(s).</p>
+                            <p>Profile Information: Username (which may be a number plate), profile picture, business information (if subscribed – name, logo, website, social media links, email, address, business hours).</p>
+                            <p>Vehicle Information: Registration details for reminders, vehicle make/model/year (if you list a car for sale or enter a raffle).</p>
+                            <p>Payment Information: When you subscribe or pay platform fees, payment details are processed by our third‑party payment processor; we do not store full card details.</p>
+                            <p>User Content: Messages sent via number plate, posts on the social feed, product listings, pothole reports (including location), tow requests, raffle entries, driving quiz answers, ride‑share trip details.</p>
+                            <p><strong>1.2 Information Collected Automatically</strong></p>
+                            <p>Location Data: When you use navigation maps, report a pothole, request a tow truck, or use Carmunicate’s ride‑share feature, we collect precise GPS location (with your permission). You can disable location in your device settings,
+                                but some features will not work.</p>
+                            <p>Device Information: IP address, device type, operating system, unique device identifiers, mobile network information, time zone, language settings.</p>
+                            <p>Usage Data: App features accessed, timestamps, interactions (e.g., messages sent, reminders set, quiz scores), subscription status, in‑app store transactions.</p>
+                            <p>Driving Mode Data: If you use Android Auto / Apple CarPlay, we may collect that the feature is active, but we do not record driving behaviour or vehicle telemetry.</p>
+                            <p><strong>1.3 Information from Third Parties</strong></p>
+                            <p>Mapping Service (e.g., Google Maps): When you use navigation, the mapping service may collect location data according to its own privacy policy.</p>
+                            <p>Mapping Service (e.g., Google Maps): When you use navigation, the mapping service may collect location data according to its own privacy policy. may collect viewing data according to its privacy policy.</p>
+                            <p>Tow Truck Providers: Basic contact and location details are shared with the tow provider you select.</p>
+                            <p>Payment Processors: We receive confirmation of payment and subscription status, but not full card numbers. We do not collect or store biometric data, health information, or government identifiers (other than number plates,
+                                which are public).</p>
+                            <p><strong>2. How We Use Your Information</strong></p>
+                            <p>We use your Personal Information for the following purposes:</p>
+                            <p>To provide, maintain, and improve the App – e.g., sending rego/parking/licence reminders, facilitating messaging, processing car sales and raffles, providing navigation, operating ride‑share matching.</p>
+                            <p>To communicate with you – e.g., push notifications for reminders, subscription confirmations, support messages, security alerts.</p>
+                            <p>To process subscriptions, platform fees, and payments – billing, renewal notices, refunds.</p>
+                            <p>To enable user‑to‑user interactions – e.g., showing your decorated plate/business information to other users, facilitating messages, ride‑share matching.</p>
+                            <p>To ensure safety and compliance – monitoring for prohibited conduct (e.g., harassment, driving while using the App, fraudulent listings), enforcing our Terms, responding to legal.</p>
+                            <p>To provide, maintain, and improve the App – e.g., sending rego/parking/licence reminders, facilitating messaging, processing car sales and raffles, providing navigation, operating ride‑share matching.</p>
+                            <p>To communicate with you – e.g., push notifications for reminders, subscription confirmations, support messages, security alerts.</p>
+                            <p>To process subscriptions, platform fees, and payments – billing, renewal notices, refunds.</p>
+                            <p>To enable user‑to‑user interactions – e.g., showing your decorated plate/business information to other users, facilitating messages, ride‑share matching.</p>
+                            <p>To ensure safety and compliance – monitoring for prohibited conduct (e.g., harassment, driving while using the App, fraudulent listings), enforcing our Terms, responding to legal.</p>
+                            <p>To analyse and improve the App – anonymised usage statistics, feature popularity, crash reports (no individual identification).</p>
+                            <p>To integrate with third‑party services – e.g., sending your location and pothole report to a local council, sharing ride details with a driver, providing map data via the mapping service. We will not use your Personal Information
+                                for purposes incompatible with those listed above without your consent.</p>
+                            <p><strong>3. How We Share Your Information</strong></p>
+                            <p>We do not sell your Personal Information. We may share it in the following circumstances:</p>
+                            <p><strong>3.1With Other Users</strong></p>
+                            <p>Number Plate Messaging: Your number plate (as your username) is visible to any user who enters it. Messages you send are visible to the recipient.</p>
+                            <p>Car Sales & Social Feed: Your username, listing details, and posts are visible to other users.</p>
+                            <p>Decorated Plate / Business Information: If you subscribe, your decorated plate and business details are visible to other users.</p>
+                            <p>Ride‑Share: If you use Carmunicate’s ride‑share feature, your first name, rating (if any), pickup location, and destination are shared with potential drivers. Drivers’ names, vehicle details, and locations are shared with riders.
+                            </p>
+                            <p><strong>3.2 With Third‑Party Service Providers</strong></p>
+                            <p>Payment Processors: To handle subscription and platform fee payments (e.g., Stripe, Apple Pay, Google Pay, Alipay, WeChat Pay for China).</p>
+                            <p>Tow Truck Companies: Your name, location, and contact number are shared with the tow provider you select.</p>
+                            <p>Mapping Service (e.g., Google Maps): Your location data is shared with the mapping service when you use navigation.</p>
+                            <p>YouTube: Embedded tutorials – Google/ YouTube may collect data as described in their privacy policy.</p>
+                            <p>Local Councils (Pothole Reports): Your pothole report (including location and any photo you submit) may be forwarded to the relevant council. We encourage you not to include personal identifiers in pothole reports.</p>
+                            <p>Cloud Hosting & Analytics: We use cloud providers (e.g., AWS, Google Cloud, Alibaba Cloud for China) and analytics tools (e.g., Firebase) to store data and improve the App.</p>
+                            <p><strong>3.3 For Legal and Safety Reasons</strong></p>
+                            <p>We may disclose your Personal Information to:</p>
+                            <p>Law enforcement, police, courts, or government agencies if required by law or in response to a valid legal request (e.g., subpoena, court order, search warrant).</p>
+                            <p>To protect the safety, rights, or property of Carmunicate, our users, or the public (e.g., if you use the App to harass another user, commit fraud, or drive dangerously).</p>
+                            <p>To comply with data localisation laws (e.g., in Russia or China) where applicable.</p>
+                            <p><strong>3.4 Business Transfers</strong></p>
+                            <p>If Carmunicate is involved in a merger, acquisition, or sale of assets, your Personal Information may be transferred as part of that transaction. We will notify you via the App or email before your information becomes subject
+                                to a different privacy policy.</p>
+                            <p><strong>3.5 With Your Consent</strong></p>
+                            <p>We may share your information for other purposes with your explicit consent.</p>
+                            <p><strong>4. International Data Transfers</strong></p>
+                            <p>Carmunicate is based in Queensland, Australia. However, because we operate (or will operate) in the USA, Canada, New Zealand, United Kingdom, China, Russia, Japan, your Personal Information may be transferred to and processed
+                                in those countries, as well as other countries where our service providers are located (e.g., cloud servers in the US, EU, or China).</p>
+                            <p>When we transfer your information internationally, we take steps to protect it:</p>
+                            <p>For transfers from Australia: We comply with Australian Privacy Principle 8 (cross‑border disclosure) by ensuring that recipients are subject to laws that provide substantially similar protections or by obtaining your consent.</p>
+                            <p>For transfers from the UK/EU (GDPR): We use Standard Contractual Clauses (SCCs) or equivalent safeguards.</p>
+                            <p>For transfers from China: We comply with PIPL requirements, including conducting security assessments where required.</p>
+                            <p>For transfers from Russia: We comply with data localisation laws (certain data may be stored on servers within Russia).</p>
+                            <p>For transfers from Japan: We comply with APPI requirements for cross‑border transfers.</p>
+                            <p>By using the App, you consent to the transfer of your information to these countries.</p>
+                            <p><strong>5. Your Privacy Rights</strong></p>
+                            <p>Depending on your location, you may have the following rights. To exercise any of them, contact us at <a href="mailto:privacy@carmunicate.app">privacy@carmunicate.app</a>. We will respond within the timeframes required by law
+                                (generally 30 days). We may ask you to verify your identity.</p>
+                            <p>Jurisdiction Rights complain to OAIC. California (USA) (CCPA/CPRA) Know what data we collect/use/disclose, delete (subject to exceptions), opt out of “sale” (we do not sell), non‑discrimination. Canada (PIPEDA) Access, correct,
+                                challenge compliance. New Zealand (Privacy Act 2020) Access, correct, complain to Privacy Commissioner. United Kingdom / EU (GDPR) Access, rectification, erasure (“right to be forgotten”), restriction, data portability,
+                                object to processing, withdraw consent, complain to ICO or local supervisory authority. China (PIPL) Access, copy, correct, delete, withdraw consent, request explanation of rules. Russia (Federal Law 152-FZ) Access, correct,
+                                block, delete; additional rights related to data localisation. Japan (APPI) Access, correct, cease use, complain to OAIC. California (USA) (CCPA/CPRA) Know what data we collect/use/disclose, delete (subject to exceptions),
+                                opt out of “sale” (we do not sell), non‑discrimination. Canada (PIPEDA) Access, correct, challenge compliance. New Zealand (Privacy Act 2020) Access, correct, complain to Privacy Commissioner. United Kingdom / EU (GDPR)
+                                Access, rectification, erasure (“right to be forgotten”), restriction, data portability, object to processing, withdraw consent, complain to ICO or local supervisory authority. China (PIPL) Access, copy, correct, delete,
+                                withdraw consent, request explanation of rules. Russia (Federal Law 152-FZ) Access, correct, block, delete; additional rights related to data localisation. Japan (APPI) Access, correct, cease use, to PPC.</p>
+                            <p><b>Note:</b> If you are a user from China or Russia, certain Personal Information may be stored on servers within your country as required by local law. Please contact us for details.</p>
+                            <p><strong>6. Data Retention</strong></p>
+                            <p>We retain your Personal Information for as long as your account is active or as needed to provide the App. After you delete your account, we will:</p>
+                            <p>Delete or anonymise your Personal Information within 90 days, except where we must retain it for legal, tax, fraud prevention, or safety ride‑share trip logs for 1 year, message logs as necessary to investigate complaints.
+                            </p>
+                            <p>Messages sent via number plate may be retained in anonymised form for analytical purposes. You may delete your account at any time via the App settings. Please note that content you have shared publicly (e.g., car listings,
+                                social feed posts) may remain visible even after account deletion unless you remove it beforehand.</p>
+                            <p><strong>7. Security of Your Information</strong></p>
+                            <p>We implement reasonable technical, administrative, and physical safeguards to protect your Personal Information, including encryption in transit (TLS 1.3 ) and at rest (AES-256). Access to Personal Information is restricted
+                                to employees and contractors who need it to operate the App.</p>
+                            <p>However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security. If we become aware of a data breach affecting your Personal Information, we will notify you and
+                                the relevant regulatory authorities as required by law (e.g., OAIC in Australia, ICO in the UK, relevant agencies in China, Russia, Japan).</p>
+                            <p><strong>8. Children’s Privacy</strong></p>
+                            <p>The App is not intended for children under 18 (or the age of majority in your jurisdiction). We do not knowingly collect Personal Information from anyone under 18. If we learn that we have collected such information, we will
+                                delete it promptly. If you believe a child has provided us with Personal Information, please contact us.</p>
+                            <p><strong>9. Third‑Party Links and Services</strong></p>
+                            <p>The App contains links to or integrations with third‑party services (e.g., mapping service, YouTube, tow companies, payment processors, councils). This Privacy Policy does not apply to those third parties. We recommend you
+                                read their privacy policies. Carmunicate is not responsible for the privacy practices of any third party.</p>
+                            <p><strong>10. Changes to This Privacy Policy</strong></p>
+                            <p>We may update this Privacy Policy from time to time. The “Last Updated” date at the top will change. If we make material changes, we will notify you via:</p>
+                            <p>A push notification or in‑app alert. · An email (if you have provided one).</p>
+                            <p>1Your continued use of the App after the changes become effective constitutes your acceptance of the revised Privacy Policy. If you do not agree, you must stop using the App.</p>
+                            <p><strong>11. How to Contact Us</strong></p>
+                            <p>For questions, to exercise your privacy rights, or to report a privacy concern:</p>
+                            <p>Carmunicate Pty Ltd – Privacy Officer Attn: Director Email:&nbsp;<a href="mailto:privacy@carmunicate.app">privacy@carmunicate.app</a>&nbsp;(for privacy matters) Or&nbsp;<a href="mailto:legal@carmunicate.app">legal@carmunicate.app</a>&nbsp;(general
+                                legal)
+                            </p>
+                            <p>Complaints by Region</p>
+                            <p>Australia: Office of the Australian Information Commissioner (OAIC) –&nbsp;<a href="https://www.oaic.gov.au/" target="_blank" rel="noopener">www.oaic.gov.au</a><br><br>United Kingdom: Information Commissioner’s Office (ICO)
+                                –&nbsp;
+                                <a href="https://www.ico.org.uk/" target="_blank" rel="noopener">www.ico.org.uk</a><br><br>California: California Attorney General –&nbsp;<a href="https://oag.ca.gov/privacy" target="_blank" rel="noopener">oag.ca.gov/privacy</a><br><br>Canada:
+                                Office of the Privacy Commissioner (OPC) –&nbsp;<a href="https://www.priv.gc.ca/" target="_blank" rel="noopener">www.priv.gc.ca</a><br><br>New Zealand: Office of the Privacy Commissioner –&nbsp;<a href="https://www.privacy.org.nz/"
+                                    target="_blank" rel="noopener">www.privacy.org.nz</a><br><br>China: Cyberspace Administration of China (CAC) –&nbsp;<a href="https://www.cac.gov.cn/" target="_blank" rel="noopener">www.cac.gov.cn</a><br><br>Russia: Federal
+                                Service for Supervision of Communications, Information Technology and Mass Media (Roskomnadzor) –&nbsp;<a href="https://rkn.gov.ru/" target="_blank" rel="noopener">rkn.gov.ru</a><br><br>Japan: Personal Information Protection
+                                Commission (PPC) –&nbsp;<a href="https://www.ppc.go.jp/" target="_blank" rel="noopener">www.ppc.go.jp</a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================== FOOTER ===================== -->
+        <footer>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-brand">
+                        <a href="#">
+                            <img src="assets/images/footer-logo.svg" alt="Carmunicate logo">
+                        </a>
+                        <p class="mt-3">The everyday driver's companion — chat, park, and manage every vehicle from one app.</p>
+                    </div>
+                    <div class="footer-cols">
+                        <div class="footer-col">
+                            <h4>Navigate</h4>
+                            <a href="./index.html">Home</a>
+                            <a href="#abouttheapp">About The App</a>
+                            <a href="#contactus">Contact Us</a>
+                            <a href="./privacy-policy.html">Privacy Policy</a>
+                            <a href="./terms-conditions.html">Terms And Conditions</a>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Contact</h4>
+                            <a href="mailto:hello@carmunicate.app">hello@carmunicate.app</a>
+                            <a href="tel:+61280001234">+61 2 8000 1234</a>
+                            <a href="#">Sydney, Australia</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-rights-main">
+                    <div class="footer-rights-wrap">
+                        <div class="footer-reserve">
+                            <div class="footer-reserve-wrap footer-rights-fn">
+                                © 2026 Carmunicate. All rights reserved.
                             </div>
                         </div>
-                      </nav>
+                        <div class="footer-rights-dev">
+                            <div class="footer-rights-dev-wrap">
+                                <div class="footer-rights-devt footer-rights-fn">
+                                    Developed by
+                                </div>
+                                <div class="footer-rights-devl">
+                                    <a href="https://www.appgurus.com.au/" target="_blank">
+                                        <img src="assets/images/appgurus-white.webp" class="img-fluid" alt="Image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-              </div>
-          </div>
-        </header>  
-
-    <!-- header End -->
-
-    <!-- Content Start -->
-
-    <section class="default-page-sec" style="">
-
-      <div class="container">
-
-        <div class="privacy-policy-sec" >
-          <div class="container">
-            
-            <div class="privacy-policy-contant">
-
-              <h2 class="section-title">Privacy Policy</h2>
-
-             <div class="privacy-policy">
-                <p><strong>Last Updated:</strong> 1st January 2024</p>
-                <p><strong>Effective Date:</strong> 1st January 2024</p>
-                <p>Carmunicate Pty Ltd (ABN: 29 673 130 535)<br>Director: Dale Bonello</p>
-                <p>Carmunicate respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you use the Carmunicate mobile application and related services (the “App”). It applies to all users worldwide, including in Australia, USA, Canada, New Zealand, United Kingdom, China, Russia, and Japan.</p>
-                <p>By using the App, you consent to the practices described in this Privacy Policy. If you do not agree, please do not use the App.</p>
-                <p><strong>1. What Information We Collect</strong></p>
-                <p>We collect information that identifies you or relates to you as an identifiable individual (“Personal Information”).</p>
-                <p><strong>1.1 Information You Provide Directly</strong></p>
-                <p>Account Information: Name, email address, mobile number, password, and vehicle number plate(s).</p>
-                <p>Profile Information: Username (which may be a number plate), profile picture, business information (if subscribed – name, logo, website, social media links, email, address, business hours).</p>
-                <p>Vehicle Information: Registration details for reminders, vehicle make/model/year (if you list a car for sale or enter a raffle).</p>
-                <p>Payment Information: When you subscribe or pay platform fees, payment details are processed by our third‑party payment processor; we do not store full card details.</p>
-                <p>User Content: Messages sent via number plate, posts on the social feed, product listings, pothole reports (including location), tow requests, raffle entries, driving quiz answers, ride‑share trip details.</p>
-                <p><strong>1.2 Information Collected Automatically</strong></p>
-                <p>Location Data: When you use navigation maps, report a pothole, request a tow truck, or use Carmunicate’s ride‑share feature, we collect precise GPS location (with your permission). You can disable location in your device settings, but some features will not work.</p>
-                <p>Device Information: IP address, device type, operating system, unique device identifiers, mobile network information, time zone, language settings.</p>
-                <p>Usage Data: App features accessed, timestamps, interactions (e.g., messages sent, reminders set, quiz scores), subscription status, in‑app store transactions.</p>
-                <p>Driving Mode Data: If you use Android Auto / Apple CarPlay, we may collect that the feature is active, but we do not record driving behaviour or vehicle telemetry.</p>
-                <p><strong>1.3 Information from Third Parties</strong></p>
-                <p>Mapping Service (e.g., Google Maps): When you use navigation, the mapping service may collect location data according to its own privacy policy.</p>
-                <p>Mapping Service (e.g., Google Maps): When you use navigation, the mapping service may collect location data according to its own privacy policy. may collect viewing data according to its privacy policy.</p>
-                <p>Tow Truck Providers: Basic contact and location details are shared with the tow provider you select.</p>
-                <p>Payment Processors: We receive confirmation of payment and subscription status, but not full card numbers. We do not collect or store biometric data, health information, or government identifiers (other than number plates, which are public).</p>
-                <p><strong>2. How We Use Your Information</strong></p>
-                <p>We use your Personal Information for the following purposes:</p>
-                <p>To provide, maintain, and improve the App – e.g., sending rego/parking/licence reminders, facilitating messaging, processing car sales and raffles, providing navigation, operating ride‑share matching.</p>
-                <p>To communicate with you – e.g., push notifications for reminders, subscription confirmations, support messages, security alerts.</p>
-                <p>To process subscriptions, platform fees, and payments – billing, renewal notices, refunds.</p>
-                <p>To enable user‑to‑user interactions – e.g., showing your decorated plate/business information to other users, facilitating messages, ride‑share matching.</p>
-                <p>To ensure safety and compliance – monitoring for prohibited conduct (e.g., harassment, driving while using the App, fraudulent listings), enforcing our Terms, responding to legal.</p>
-                <p>To provide, maintain, and improve the App – e.g., sending rego/parking/licence reminders, facilitating messaging, processing car sales and raffles, providing navigation, operating ride‑share matching.</p>
-                <p>To communicate with you – e.g., push notifications for reminders, subscription confirmations, support messages, security alerts.</p>
-                <p>To process subscriptions, platform fees, and payments – billing, renewal notices, refunds.</p>
-                <p>To enable user‑to‑user interactions – e.g., showing your decorated plate/business information to other users, facilitating messages, ride‑share matching.</p>
-                <p>To ensure safety and compliance – monitoring for prohibited conduct (e.g., harassment, driving while using the App, fraudulent listings), enforcing our Terms, responding to legal.</p>
-                <p>To analyse and improve the App – anonymised usage statistics, feature popularity, crash reports (no individual identification).</p>
-                <p>To integrate with third‑party services – e.g., sending your location and pothole report to a local council, sharing ride details with a driver, providing map data via the mapping service. We will not use your Personal Information for purposes incompatible with those listed above without your consent.</p>
-                <p><strong>3. How We Share Your Information</strong></p>
-                <p>We do not sell your Personal Information. We may share it in the following circumstances:</p>
-                <p><strong>3.1With Other Users</strong></p>
-                <p>Number Plate Messaging: Your number plate (as your username) is visible to any user who enters it. Messages you send are visible to the recipient.</p>
-                <p>Car Sales & Social Feed: Your username, listing details, and posts are visible to other users.</p>
-                <p>Decorated Plate / Business Information: If you subscribe, your decorated plate and business details are visible to other users.</p>
-                <p>Ride‑Share: If you use Carmunicate’s ride‑share feature, your first name, rating (if any), pickup location, and destination are shared with potential drivers. Drivers’ names, vehicle details, and locations are shared with riders.</p>
-                <p><strong>3.2 With Third‑Party Service Providers</strong></p>
-                <p>Payment Processors: To handle subscription and platform fee payments (e.g., Stripe, Apple Pay, Google Pay, Alipay, WeChat Pay for China).</p>
-                <p>Tow Truck Companies: Your name, location, and contact number are shared with the tow provider you select.</p>
-                <p>Mapping Service (e.g., Google Maps): Your location data is shared with the mapping service when you use navigation.</p>
-                <p>YouTube: Embedded tutorials – Google/ YouTube may collect data as described in their privacy policy.</p>
-                <p>Local Councils (Pothole Reports): Your pothole report (including location and any photo you submit) may be forwarded to the relevant council. We encourage you not to include personal identifiers in pothole reports.</p>
-                <p>Cloud Hosting & Analytics: We use cloud providers (e.g., AWS, Google Cloud, Alibaba Cloud for China) and analytics tools (e.g., Firebase) to store data and improve the App.</p>
-                <p><strong>3.3 For Legal and Safety Reasons</strong></p>
-                <p>We may disclose your Personal Information to:</p>
-                <p>Law enforcement, police, courts, or government agencies if required by law or in response to a valid legal request (e.g., subpoena, court order, search warrant).</p>
-                <p>To protect the safety, rights, or property of Carmunicate, our users, or the public (e.g., if you use the App to harass another user, commit fraud, or drive dangerously).</p>
-                <p>To comply with data localisation laws (e.g., in Russia or China) where applicable.</p>
-                <p><strong>3.4 Business Transfers</strong></p>
-                <p>If Carmunicate is involved in a merger, acquisition, or sale of assets, your Personal Information may be transferred as part of that transaction. We will notify you via the App or email before your information becomes subject to a different privacy policy.</p>
-                <p><strong>3.5 With Your Consent</strong></p>
-                <p>We may share your information for other purposes with your explicit consent.</p>
-                <p><strong>4. International Data Transfers</strong></p>
-                <p>Carmunicate is based in Queensland, Australia. However, because we operate (or will operate) in the USA, Canada, New Zealand, United Kingdom, China, Russia, Japan, your Personal Information may be transferred to and processed in those countries, as well as other countries where our service providers are located (e.g., cloud servers in the US, EU, or China).</p>
-                <p>When we transfer your information internationally, we take steps to protect it:</p>
-                <p>For transfers from Australia: We comply with Australian Privacy Principle 8 (cross‑border disclosure) by ensuring that recipients are subject to laws that provide substantially similar protections or by obtaining your consent.</p>
-                <p>For transfers from the UK/EU (GDPR): We use Standard Contractual Clauses (SCCs) or equivalent safeguards.</p>
-                <p>For transfers from China: We comply with PIPL requirements, including conducting security assessments where required.</p>
-                <p>For transfers from Russia: We comply with data localisation laws (certain data may be stored on servers within Russia).</p>
-                <p>For transfers from Japan: We comply with APPI requirements for cross‑border transfers.</p>
-                <p>By using the App, you consent to the transfer of your information to these countries.</p>
-                <p><strong>5. Your Privacy Rights</strong></p>
-                <p>Depending on your location, you may have the following rights. To exercise any of them, contact us at <a href="mailto:privacy@carmunicate.app">privacy@carmunicate.app</a>. We will respond within the timeframes required by law (generally 30 days). We may ask you to verify your identity.</p>
-                <p>Jurisdiction Rights complain to OAIC. California (USA) (CCPA/CPRA) Know what data we collect/use/disclose, delete (subject to exceptions), opt out of “sale” (we do not sell), non‑discrimination. Canada (PIPEDA) Access, correct, challenge compliance. New Zealand (Privacy Act 2020) Access, correct, complain to Privacy Commissioner. United Kingdom / EU (GDPR) Access, rectification, erasure (“right to be forgotten”), restriction, data portability, object to processing, withdraw consent, complain to ICO or local supervisory authority. China (PIPL) Access, copy, correct, delete, withdraw consent, request explanation of rules. Russia (Federal Law 152-FZ) Access, correct, block, delete; additional rights related to data localisation. Japan (APPI) Access, correct, cease use, complain to OAIC. California (USA) (CCPA/CPRA) Know what data we collect/use/disclose, delete (subject to exceptions), opt out of “sale” (we do not sell), non‑discrimination. Canada (PIPEDA) Access, correct, challenge compliance. New Zealand (Privacy Act 2020) Access, correct, complain to Privacy Commissioner. United Kingdom / EU (GDPR) Access, rectification, erasure (“right to be forgotten”), restriction, data portability, object to processing, withdraw consent, complain to ICO or local supervisory authority. China (PIPL) Access, copy, correct, delete, withdraw consent, request explanation of rules. Russia (Federal Law 152-FZ) Access, correct, block, delete; additional rights related to data localisation. Japan (APPI) Access, correct, cease use, to PPC.</p>
-                <p><b>Note:</b> If you are a user from China or Russia, certain Personal Information may be stored on servers within your country as required by local law. Please contact us for details.</p>
-                <p><strong>6. Data Retention</strong></p>
-                <p>We retain your Personal Information for as long as your account is active or as needed to provide the App. After you delete your account, we will:</p>
-                <p>Delete or anonymise your Personal Information within 90 days, except where we must retain it for legal, tax, fraud prevention, or safety ride‑share trip logs for 1 year, message logs as necessary to investigate complaints. </p>
-                <p>Messages sent via number plate may be retained in anonymised form for analytical purposes. You may delete your account at any time via the App settings. Please note that content you have shared publicly (e.g., car listings, social feed posts) may remain visible even after account deletion unless you remove it beforehand.</p>
-                <p><strong>7. Security of Your Information</strong></p>
-                <p>We implement reasonable technical, administrative, and physical safeguards to protect your Personal Information, including encryption in transit (TLS 1.3 ) and at rest (AES-256). Access to Personal Information is restricted to employees and contractors who need it to operate the App.</p>
-                <p>However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security. If we become aware of a data breach affecting your Personal Information, we will notify you and the relevant regulatory authorities as required by law (e.g., OAIC in Australia, ICO in the UK, relevant agencies in China, Russia, Japan).</p>
-                <p><strong>8. Children’s Privacy</strong></p>
-                <p>The App is not intended for children under 18 (or the age of majority in your jurisdiction). We do not knowingly collect Personal Information from anyone under 18. If we learn that we have collected such information, we will delete it promptly. If you believe a child has provided us with Personal Information, please contact us.</p>
-                <p><strong>9. Third‑Party Links and Services</strong></p>
-                <p>The App contains links to or integrations with third‑party services (e.g., mapping service, YouTube, tow companies, payment processors, councils). This Privacy Policy does not apply to those third parties. We recommend you read their privacy policies. Carmunicate is not responsible for the privacy practices of any third party.</p>
-                <p><strong>10. Changes to This Privacy Policy</strong></p>
-                <p>We may update this Privacy Policy from time to time. The “Last Updated” date at the top will change. If we make material changes, we will notify you via:</p>
-                <p>A push notification or in‑app alert. · An email (if you have provided one).</p>
-                <p>1Your continued use of the App after the changes become effective constitutes your acceptance of the revised Privacy Policy. If you do not agree, you must stop using the App.</p>
-                <p><strong>11. How to Contact Us</strong></p>
-                <p>For questions, to exercise your privacy rights, or to report a privacy concern:</p>
-                <p>Carmunicate Pty Ltd – Privacy Officer Attn: Director Email:&nbsp;<a href="mailto:privacy@carmunicate.app">privacy@carmunicate.app</a>&nbsp;(for privacy matters) Or&nbsp;<a href="mailto:legal@carmunicate.app">legal@carmunicate.app</a>&nbsp;(general legal)</p>
-                <p>Complaints by Region</p>
-                <p>Australia: Office of the Australian Information Commissioner (OAIC) –&nbsp;<a href="https://www.oaic.gov.au/" target="_blank" rel="noopener">www.oaic.gov.au</a><br><br>United Kingdom: Information Commissioner’s Office (ICO) –&nbsp;<a href="https://www.ico.org.uk/" target="_blank" rel="noopener">www.ico.org.uk</a><br><br>California: California Attorney General –&nbsp;<a href="https://oag.ca.gov/privacy" target="_blank" rel="noopener">oag.ca.gov/privacy</a><br><br>Canada: Office of the Privacy Commissioner (OPC) –&nbsp;<a href="https://www.priv.gc.ca/" target="_blank" rel="noopener">www.priv.gc.ca</a><br><br>New Zealand: Office of the Privacy Commissioner –&nbsp;<a href="https://www.privacy.org.nz/" target="_blank" rel="noopener">www.privacy.org.nz</a><br><br>China: Cyberspace Administration of China (CAC) –&nbsp;<a href="https://www.cac.gov.cn/" target="_blank" rel="noopener">www.cac.gov.cn</a><br><br>Russia: Federal Service for Supervision of Communications, Information Technology and Mass Media (Roskomnadzor) –&nbsp;<a href="https://rkn.gov.ru/" target="_blank" rel="noopener">rkn.gov.ru</a><br><br>Japan: Personal Information Protection Commission (PPC) –&nbsp;<a href="https://www.ppc.go.jp/" target="_blank" rel="noopener">www.ppc.go.jp</a></p>
-            </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ===================== FOOTER ===================== -->
-    <footer>
-          <div class="wrap">
-              <div class="footer-top">
-                  <div class="footer-brand">
-                      <a href="#">
-                        <img src="assets/images/footer-logo.svg" alt="Carmunicate logo">
-                      </a>
-                      <p class="mt-3 mb-0">The everyday driver's companion — chat, park, and manage every vehicle from one app.</p>
-                  </div>
-                  <div class="footer-cols">
-                      <div class="footer-col">
-                          <h4>Navigate</h4>
-                          <a href="#home">Home</a>
-                          <a href="#abouttheapp">About The App</a>
-                          <a href="#contactus">Contact Us</a>
-                      </div>
-                      <div class="footer-col">
-                          <h4>Contact</h4>
-                          <a href="mailto:hello@carmunicate.app">hello@carmunicate.app</a>
-                          <a href="tel:+61280001234">+61 2 8000 1234</a>
-                          <a href="#">Sydney, Australia</a>
-                      </div>
-                  </div>
-              </div>
-              <!-- <div class="footer-bottom">
-                  <p>© 2026 Carmunicate. All rights reserved.</p>
-                  <div class="footer-social">
-                      <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"></rect><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"></circle></svg></a>
-                      <a href="#" aria-label="X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></a>
-                      <a href="#" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.8"></rect><path d="M7.5 10v6.5M7.5 7.5v.01M12 16.5V13a2 2 0 0 1 4 0v3.5M12 13v3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></a>
-                  </div>
-              </div> -->
-              <div class="footer-rights-main">
-        <div class="footer-rights-wrap">
-          <div class="footer-reserve">
-             <div class="footer-reserve-wrap footer-rights-fn">
-               © 2026 Carmunicate. All rights reserved.             
-             </div>
-            </div>
-            <div class="footer-rights-dev">
-              <div class="footer-rights-dev-wrap">
-                <div class="footer-rights-devt footer-rights-fn">
-                  Developed by 
                 </div>
-                <div class="footer-rights-devl">
-                  <a href="https://www.appgurus.com.au/" target="_blank">
-                    <img src="assets/images/appgurus-white.webp" class="img-fluid" alt="Image">
-                  </a>
-                </div>
-              </div>
             </div>
-        </div>
-      </div>
-          </div>
-      </footer>
+        </footer>
 
-  </div>
+    </div>
 
 
 
 
-  <!-- ====== /FOOTER BOC ====== -->
+    <!-- ====== /FOOTER BOC ====== -->
 
-  <!-- ====== /FOOTER EOC ====== -->
+    <!-- ====== /FOOTER EOC ====== -->
 
 
 
