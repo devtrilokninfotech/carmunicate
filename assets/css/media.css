@@ -1,0 +1,216 @@
+
+
+@media (max-width:1599px){
+
+	h1,.h1 { font-size:65px;}
+	h2,.h2 { font-size:50px;}
+	h3,.h3 { font-size:45px;}
+	h4,.h4 { font-size:35px;}
+	h5,.h5 { font-size:22px;}  
+	h6,.h6 { font-size:20px;}
+
+    p{font-size: 20px;line-height: 28px}
+
+
+    button.slick-arrow{width:50px;height:50px;top: -115px;}
+	button.slick-arrow::after{font-size:26px;}
+	button.slick-next.slick-arrow{right:13%;}
+	button.slick-prev.slick-arrow{right:18%;}
+
+
+
+}
+
+@media (max-width: 1499px) { 
+
+
+
+	h1,.h1 { font-size:60px;}
+	h2,.h2 { font-size:45px;}
+	h3,.h3 { font-size:40px;}
+	h4,.h4 { font-size:30px;}
+	h5,.h5 { font-size:20px;}  
+	h6,.h6 { font-size:18px;}	
+
+
+	.btn{padding:15px 15px;font-size:18px;min-width:146px;}
+
+    p{font-size: 18px;line-height: 26px}
+
+
+	button.slick-arrow{width:45px;height:45px;top: -105px;}
+	button.slick-arrow::after{font-size:24px;}
+
+	
+}
+
+@media (max-width: 1399px) { 
+
+	h1,.h1 { font-size:55px;}
+	h2,.h2 { font-size:40px;}
+	h3,.h3 { font-size:35px;}
+	h4,.h4 { font-size:30px;}
+	h5,.h5 { font-size:18px;}  
+	h6,.h6 { font-size:16px;}
+
+	p{font-size: 16px;line-height:1.4}
+
+
+	button.slick-arrow{width:40px;height:40px;top:-95px;}
+	button.slick-prev.slick-arrow{right:17.5%;}
+	button.slick-arrow::after{font-size:22px;}
+
+
+}
+
+@media (max-width: 1299px) { 
+
+	h1,.h1 { font-size:50px;}
+	h2,.h2 { font-size:35px;}
+	h3,.h3 { font-size:30px;}
+	h4,.h4 { font-size:30px;}
+	h5,.h5 { font-size:17px;}  
+	h6,.h6 { font-size:15px;}
+
+
+    p{font-size: 15px;line-height:1.4}
+
+
+
+}
+
+@media (max-width: 1199.98px) { 
+
+
+	h1,.h1 { font-size:45px;}
+	h2,.h2 { font-size:30px;}
+	h3,.h3 { font-size:28px;}
+	h4,.h4 { font-size:25px;}
+	h5,.h5 { font-size:16px;}  
+	h6,.h6 { font-size:15px;}
+
+
+	p{font-size: 15px;}
+
+    button.slick-prev.slick-arrow{right:18%;}
+
+
+
+	/*.container {width: 94%; }*/
+			
+
+}		
+
+
+
+
+/*=========================================================
+// Medium devices (tablets, less than 992px)
+===========================================================*/
+
+@media (max-width: 991.98px) 	{ 
+	
+	h1,.h1 { font-size:40px;}
+	h2,.h2 { font-size:28px;}
+	h3,.h3 { font-size:26px;}
+	h4,.h4 { font-size:24px;}
+	h5,.h5 { font-size:16px;}  
+	h6,.h6 { font-size:15px;}
+
+	p{font-size: 15px;}
+
+    button.slick-prev.slick-arrow{right:19%;}
+
+
+	.form-control::placeholder { font-size: 15px;}
+	.form-control::-moz-placeholder { font-size: 15px;}
+	.form-control:-ms-input-placeholder { font-size: 15px;}
+	.form-control::-webkit-input-placeholder { font-size: 15px;}
+	.form-control::-o-input-placeholder { font-size: 15px; }
+
+
+	/*.story-layout{display:flex;flex-direction:column;}*/
+	.story-phone-col{position:relative;top:0px;display:flex;align-items:center;justify-content:center;min-height:auto;padding:0px 0;width:100%;}
+	.story-steps .slick-list{overflow:hidden;display:flex;padding-right:20%; }
+	.story-steps{display: block;}
+
+	.story-steps .slick-list .slick-track{display:flex;padding:6px;}
+	.story-steps .slick-track .story-step {margin-right: 10px; }
+	.story-step{padding:25px 20px;}
+	.story-step h3{font-size:20px;}
+	.story-step p{font-size:14px;}
+	.story-section{padding:80px 0 60px!important;}
+	.story-steps{padding-bottom: 30px !important; margin-top: 20px;}
+
+	.story-layout button.slick-arrow{top:10px;}
+	.story-layout button.slick-prev.slick-arrow{right:calc(7% + 40px);}
+	.story-layout button.slick-next.slick-arrow{right:5%;}
+
+
+
+	.cta-phones .iphone.iphone-lg{--phone-w:210px;--phone-r:32px;}
+	.cta-phones .iphone.iphone-md{--phone-w:200px;--phone-r:0px;}
+	.cta-phone-side.right{transform:translateY(10px) translateX(-60px)  rotate(12deg) scale(0.9);}
+	.cta-phone-side{transform:translateY(10px) translateX(60px)  rotate(-12deg) scale(0.9);}
+
+}
+
+/*=========================================================
+// Small devices (landscape phones, less than 768px)
+===========================================================*/
+
+@media (max-width: 767.98px) {
+
+
+	h1,.h1 { font-size:35px;}
+	h2,.h2 { font-size:26px;}
+	h3,.h3 { font-size:23px;}
+	h4,.h4 { font-size:23px;}
+	h5,.h5 { font-size:16px;}  
+	h6,.h6 { font-size:15px;}
+
+	p{font-size: 15px;}
+
+
+	.btn{padding:13px 13px;font-size:16px;min-width:136px;}
+	
+
+
+	.form-control::placeholder { font-size: 14px;}
+	.form-control::-moz-placeholder { font-size: 14px;}
+	.form-control:-ms-input-placeholder { font-size: 14px;}
+	.form-control::-webkit-input-placeholder { font-size: 14px;}
+	.form-control::-o-input-placeholder { font-size: 14px; }
+
+	.hero-panel.hero-panel-buyer, .hero-panel.hero-panel-vendor {border: 1px solid #ccc; padding: 30px 25px; border-radius: 16px; box-shadow: 0px 2px 10px rgba(0,0,0,0.25); height: 100%; }
+	.story-steps .slick-list{padding-right:12%; }
+	.story-steps{margin-top: 0px;padding-top: 30px !important;}
+	.story-phone-wrap {--phone-w: 230px; }
+	.story-layout button.slick-arrow{top: -276px;}
+	.story-layout button.slick-prev.slick-arrow{right: unset;left: 5%;}
+	.story-layout button.slick-next.slick-arrow{right: 5%;}
+
+}
+
+/*=========================================================
+Extra small devices (portrait phones, less than 576px)
+===========================================================*/
+@media (max-width: 576px) { 
+
+
+	h1,.h1 { font-size:33px;}
+	h2,.h2 { font-size:26px;}
+	h3,.h3 { font-size:23px;}
+	h4,.h4 { font-size:23px;}
+	h5,.h5 { font-size:15px;}  
+	h6,.h6 { font-size:14px;} 
+
+	.container{ width: 100%; padding-left:20px; padding-right:20px; }
+
+
+
+}
+
+
+
+
