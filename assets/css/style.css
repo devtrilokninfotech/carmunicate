@@ -1364,7 +1364,7 @@ footer {
 /* ---------- 404 Page ---------- */
 
 .h-spacing {
-    padding-top: 85px;
+    padding-top: 85px !important;
 }
 
 main {
