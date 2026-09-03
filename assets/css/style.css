@@ -100,7 +100,7 @@ textarea.form-control{resize:none;overflow:auto;padding:10px 15px 10px 15px;heig
 
 /* Focus State CSS BOF */
 .form-control:focus,.form-select:focus{border-color:#FF4C1C;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;background-color:#f8f8f8;}
-.page-wrapper{margin:0px auto;}
+.page-wrapper{margin:0px auto;display: flex; flex-direction: column; min-height: 100%;}
 .display-none{display:none!important;}
 .no-scroll{overflow:hidden;}
 .no-padding{padding:0!important;}
@@ -246,6 +246,41 @@ footer{background:var(--blue-950);color:#c7d2f5;padding:64px 0 28px;}
 .footer-rights-wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;}
 .footer-reserve-wrap.footer-rights-fn,.footer-rights-devt.footer-rights-fn{color:#8d9ac6;}
 
+/* ---------- 404 Page ---------- */
+.h-spacing{padding-top:85px;}
+main {flex-shrink: 0;flex-grow: 1;}
+
+.page-404 .wrap{min-height:60vh;display:flex;align-items:center;justify-content:center;padding:24px 20px;}
+.page-404 .card{width:100%;text-align:center;border:none;animation:fade-up 0.6s ease-out both;}
+@keyframes fade-up{
+	from{opacity:0;transform:translateY(12px);}
+	to{opacity:1;transform:translateY(0);}
+}
+
+.page-404 .code{font-size:clamp(74px,14vw,120px);font-weight:700;line-height:1;margin:0 0 6px;background:linear-gradient(100deg,var(--blue-800) 30%,var(--white) 45%,var(--blue-800) 60%);background-size:250% 100%;background-position:150% 0;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 4.2s ease-in-out infinite;-webkit-animation:shimmer 4.2s ease-in-out infinite;}
+@keyframes shimmer{
+	0%{background-position:150% 0;}
+	50%{background-position:-50% 0;}
+	100%{background-position:-150% 0;}
+}
+
+.page-404 .underline{width:64px;height:3px;margin:0 auto 26px;background:var(--blue-800);border-radius:2px;transform-origin:center;animation:scan 3.2s ease-in-out infinite;-webkit-animation:scan 3.2s ease-in-out infinite;}
+@keyframes scan{
+	0%,100%{transform:scaleX(0.4);opacity:0.4;}
+	50%{transform:scaleX(1);opacity:1;}
+}
+
+.page-404 h1.title{font-size:20px;font-weight:600;margin:0 0 10px;color:var(--ink);}
+.page-404 p.desc{font-size:15px;line-height:1.6;color:var(--ink-soft);max-width:400px;margin:0 auto 28px;}
+.page-404 .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+@media (prefers-reduced-motion:reduce){
+	.page-404 .card{animation:none;}
+	.page-404 .code{animation:none;background-position:0 0;}
+	.page-404 .underline{animation:none;transform:scaleX(0.7);opacity:0.8;}
+}
+
+
+
 /* ---------- RESPONSIVE ---------- */
 
 /* 1600px and above — Show full store badges */
@@ -277,7 +312,7 @@ footer{background:var(--blue-950);color:#c7d2f5;padding:64px 0 28px;}
 	/*.feature-row .feature-visual{order:2;}
 	.feature-row .feature-copy{order:1;}*/
 	.contact-panel{grid-template-columns:1fr;padding:30px;}
-	.hero-phones .device{width:190px;}
+	.hero-phones .device{width:190px;} 
 	.phone-frame{width:210px;}
 }
 @media (max-width:900px){

@@ -190,6 +190,11 @@
 	.story-layout button.slick-prev.slick-arrow{right: unset;left: 5%;}
 	.story-layout button.slick-next.slick-arrow{right: 5%;}
 
+	/* @madhavi */
+	.h-spacing{
+		padding-top: 80px;
+	}
+
 }
 
 /*=========================================================
