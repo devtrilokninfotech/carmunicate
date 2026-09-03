@@ -211,11 +211,11 @@ header.nav.scrolled{border-bottom:1px solid var(--line);box-shadow:0 4px 20px rg
 .contact-info h2{color:#fff;font-size:clamp(28px,3.4vw,38px);margin:16px 0 18px;font-weight:800;}
 .contact-info p{color:#c7d2f5;font-size:18px;line-height:1.5;max-width:380px;margin-bottom:36px;}
 .contact-detail{display:flex;align-items:center;gap:14px;margin-bottom:18px;}
-.contact-detail .ic{width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;color:#fff;flex:0 0 auto;}
+.contact-detail .ic{width:45px;height:45px;border-radius:50px;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;color:#fff;flex:0 0 auto;}
 .contact-detail .social-v1{color:#e4e9ff;font-size:15px;font-weight:500;}
 .contact-detail span{display:block;color:#8f9dc9;font-size:14px;margin-bottom:2px;}
 .social-row{display:flex;gap:12px;margin-top:32px;}
-.social-row a{width:40px;height:40px;border-radius:11px;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;color:#fff;transition:background .25s ease,transform .25s ease;}
+.social-row a{width:45px;height:45px;border-radius:50px;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;color:#fff;transition:background .25s ease,transform .25s ease;}
 .social-row a:hover{background:rgba(255,255,255,0.18);transform:translateY(-3px);}
 .contact-form{background:#fff;border-radius:24px;padding:40px;box-shadow:0 30px 70px rgba(0,0,0,0.35);}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
